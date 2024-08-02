@@ -1,0 +1,60 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .report-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .table-report, .chart-report, .summary-report {
+    margin-bottom: 20px;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .styled-table tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .styled-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  /* Chart Styles */
+.chart-report {
+    margin: 20px 0;
+  }
+  
+  .chart-container {
+    margin: 20px 0;
+  }
+  
+  .chart-report h3 {
+    margin-bottom: 10px;
+  }
+  
