@@ -16,6 +16,7 @@ import {
     LineElement,
   } from 'chart.js';
 import ReportService from '../services/ReportService';
+import './CategoryReportStyles.css';
 
   // Register the components
 ChartJS.register(

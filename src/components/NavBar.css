@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust height as needed */
+    background-color: #333; /* Adjust background color as needed */
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual separation */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    margin-top: 70px; /* Adjust according to the height of the navbar */
+  }
+  
